@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="database">
+      </df>
+      <df name="doc">
+        <df name="UML">
+        </df>
+      </df>
+      <df name="doxygen">
+      </df>
+      <df name="lib">
+        <df name="db">
+          <df name="include">
+            <in>TL_Db.h</in>
+            <in>TL_Login.h</in>
+          </df>
+          <in>TL_Db.cpp</in>
+          <in>TL_Login.cpp</in>
+        </df>
+        <df name="general">
+          <df name="include">
+            <in>TL_AssocArray.h</in>
+            <in>TL_BackTrace.h</in>
+            <in>TL_CondVariable.h</in>
+            <in>TL_Exception.h</in>
+            <in>TL_GlobalExceptionHandler.h</in>
+            <in>TL_GlobalStaticDestroyer.h</in>
+            <in>TL_Log.h</in>
+            <in>TL_MemoryLeakReport.h</in>
+            <in>TL_Mutex.h</in>
+            <in>TL_NoCopy.h</in>
+            <in>TL_OSUtil.h</in>
+            <in>TL_Pimpl.h</in>
+            <in>TL_Semaphore.h</in>
+            <in>TL_SharedPtr.h</in>
+            <in>TL_SignalManager.h</in>
+            <in>TL_Thread.h</in>
+            <in>TL_ThreadData.h</in>
+            <in>TL_ThreadManager.h</in>
+            <in>TL_Time.h</in>
+            <in>TL_Xml2Array.h</in>
+          </df>
+          <in>TL_AssocArray.cpp</in>
+          <in>TL_CondVariable.cpp</in>
+          <in>TL_Exception.cpp</in>
+          <in>TL_GlobalStaticDestroyer.cpp</in>
+          <in>TL_Log.cpp</in>
+          <in>TL_MemoryLeakReport.cpp</in>
+          <in>TL_Mutex.cpp</in>
+          <in>TL_OSUtil.cpp</in>
+          <in>TL_Semaphore.cpp</in>
+          <in>TL_SignalManager.cpp</in>
+          <in>TL_Thread.cpp</in>
+          <in>TL_ThreadManager.cpp</in>
+          <in>TL_Time.cpp</in>
+          <in>TL_Xml2Array.cpp</in>
+        </df>
+        <df name="net">
+          <df name="include">
+            <in>TL_Connection.h</in>
+            <in>TL_EPollServer.h</in>
+            <in>TL_EventBuffer.h</in>
+            <in>TL_Inet.h</in>
+            <in>TL_LoggedInClients.h</in>
+            <in>TL_MessageDispatcher.h</in>
+            <in>TL_ProtocolLogic.h</in>
+            <in>TL_SocketEventManager.h</in>
+            <in>TL_TCPClient.h</in>
+            <in>TL_TCPServer.h</in>
+            <in>TL_ThreadGroupedClients.h</in>
+          </df>
+          <in>TL_Connection.cpp</in>
+          <in>TL_EPollServer.cpp</in>
+          <in>TL_EventBuffer.cpp</in>
+          <in>TL_LoggedInClients.cpp</in>
+          <in>TL_MessageDispatcher.cpp</in>
+          <in>TL_ProtocolLogic.cpp</in>
+          <in>TL_SocketEventManager.cpp</in>
+          <in>TL_TCPClient.cpp</in>
+          <in>TL_TCPServer.cpp</in>
+          <in>TL_ThreadGroupedClients.cpp</in>
+        </df>
+      </df>
+      <df name="manager">
+        <df name="include">
+        </df>
+        <df name="src">
+          <in>Manager.cpp</in>
+        </df>
+      </df>
+      <df name="server">
+        <df name="include">
+          <in>TL_Central.h</in>
+        </df>
+        <df name="src">
+          <in>TL_Central.cpp</in>
+          <in>server.cpp</in>
+        </df>
+      </df>
+      <df name="test">
+        <df name="include">
+          <in>TL_Client.h</in>
+          <in>TL_CreateRequest.h</in>
+        </df>
+        <df name="src">
+          <in>TL_Client.cpp</in>
+          <in>TL_CreateRequest.cpp</in>
+          <in>TL_Test.cpp</in>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

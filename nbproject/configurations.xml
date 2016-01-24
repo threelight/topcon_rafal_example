@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="lib">
+        <df name="db">
+          <in>TL_Db.cpp</in>
+          <in>TL_Login.cpp</in>
+        </df>
+        <df name="general">
+          <in>TL_AssocArray.cpp</in>
+          <in>TL_CondVariable.cpp</in>
+          <in>TL_Exception.cpp</in>
+          <in>TL_GlobalStaticDestroyer.cpp</in>
+          <in>TL_Log.cpp</in>
+          <in>TL_MemoryLeakReport.cpp</in>
+          <in>TL_Mutex.cpp</in>
+          <in>TL_OSUtil.cpp</in>
+          <in>TL_Semaphore.cpp</in>
+          <in>TL_SignalManager.cpp</in>
+          <in>TL_Thread.cpp</in>
+          <in>TL_ThreadManager.cpp</in>
+          <in>TL_Time.cpp</in>
+          <in>TL_Xml2Array.cpp</in>
+        </df>
+        <df name="net">
+          <in>TL_Connection.cpp</in>
+          <in>TL_EPollServer.cpp</in>
+          <in>TL_EventBuffer.cpp</in>
+          <in>TL_LoggedInClients.cpp</in>
+          <in>TL_MessageDispatcher.cpp</in>
+          <in>TL_ProtocolLogic.cpp</in>
+          <in>TL_SocketEventManager.cpp</in>
+          <in>TL_TCPClient.cpp</in>
+          <in>TL_TCPServer.cpp</in>
+          <in>TL_ThreadGroupedClients.cpp</in>
+        </df>
+      </df>
+      <df name="manager">
+        <df name="src">
+          <in>Manager.cpp</in>
+        </df>
+      </df>
+      <df name="server">
+        <df name="src">
+          <in>TL_Central.cpp</in>
+          <in>server.cpp</in>
+        </df>
+      </df>
+      <df name="test">
+        <df name="src">
+          <in>TL_Client.cpp</in>
+          <in>TL_CreateRequest.cpp</in>
+          <in>TL_Test.cpp</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <folder path="0/lib/db">
+        <ccTool>
+          <incDir>
+            <pElem>lib/db</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/lib/general">
+        <ccTool>
+          <incDir>
+            <pElem>lib/general</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/lib/net">
+        <ccTool>
+          <incDir>
+            <pElem>lib/net</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/manager">
+        <ccTool>
+          <incDir>
+            <pElem>manager/src</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/server">
+        <ccTool>
+          <incDir>
+            <pElem>server/src</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/test">
+        <ccTool>
+          <incDir>
+            <pElem>test/src</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="lib/db/TL_Db.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/db/TL_Login.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_AssocArray.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_CondVariable.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_Exception.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_GlobalStaticDestroyer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="lib/general/TL_Log.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_MemoryLeakReport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="lib/general/TL_Mutex.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_OSUtil.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_Semaphore.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_SignalManager.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_Thread.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_ThreadManager.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_Time.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/general/TL_Xml2Array.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_Connection.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_EPollServer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_EventBuffer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_LoggedInClients.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_MessageDispatcher.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_ProtocolLogic.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_SocketEventManager.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_TCPClient.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_TCPServer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="lib/net/TL_ThreadGroupedClients.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="manager/src/Manager.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="server/src/TL_Central.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="server/src/server.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="test/src/TL_Client.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="test/src/TL_CreateRequest.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="test/src/TL_Test.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
